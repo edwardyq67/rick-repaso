@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 
 import './App.css'
 import axios from 'axios'
-import Atributos from './assets/componente/atributos'
+import Atributos from './componente/Atributos'
 import './personaje.css'
 
 function App() {

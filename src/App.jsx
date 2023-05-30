@@ -57,7 +57,7 @@ const ramdom=Math.floor(Math.random()*51)+1
         {
           count.residents?.map(personajes=>(
             
-              <Atributos keys={personajes.url} personajes={personajes}/>
+              <Atributos key={personajes.url} personajes={personajes}/>
             
           ))
         }
